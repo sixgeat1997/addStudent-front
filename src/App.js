@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Std from './components/Std'
+import Addstd from './components/Addstd'
+import { Col, Row } from 'antd';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Row type="flex" justify="center">
+
+      <Col md={24}>
+        <Std />
+
+      </Col>
+      </Row>
+      {/* <Row type="flex" justify="center">
+        <Addstd />
+      </Row> */}
+     
+      {/* <Col md={16}>
+        <Addstd />
+      </Col> */}
+
+
+
     </div>
-  );
+  )
 }
 
 export default App;

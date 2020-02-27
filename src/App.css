@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+.in-size-full-detail{
+  width: 50%;
+
+}
+.bt-center-flex{
+  display:flex;
+  justify-content: center;
+}
+.bt-space{
+  margin: 5px;
+}
+.zoom-icon{
+  zoom: 20;
+}
+.card{
+  width: 80%;
+  margin: 10px;
+}
+.ant-card{
+  margin: 10px;
+}
